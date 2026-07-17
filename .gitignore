@@ -1,0 +1,231 @@
+# ==========================================
+# React Native
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================================
+# Node.js
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package managers
+.pnpm-store/
+.npm/
+
+# ==========================================
+# Metro
+# ==========================================
+
+.metro-health-check*
+.metro-cache/
+metro-cache/
+
+# ==========================================
+# React Native Bundles
+# ==========================================
+
+*.bundle
+
+# ==========================================
+# Environment
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ==========================================
+# Logs
+# ==========================================
+
+logs/
+*.log
+
+# ==========================================
+# Coverage
+# ==========================================
+
+coverage/
+.nyc_output/
+
+# ==========================================
+# Jest
+# ==========================================
+
+jest-cache/
+
+# ==========================================
+# TypeScript
+# ==========================================
+
+*.tsbuildinfo
+
+# ==========================================
+# Android
+# ==========================================
+
+android/.gradle/
+android/build/
+android/app/build/
+android/app/debug/
+android/app/release/
+android/captures/
+android/local.properties
+android/.idea/
+android/*.iml
+android/**/build/
+
+# Native build outputs
+android/.cxx/
+android/.externalNativeBuild/
+
+# Android signing keys
+*.jks
+*.keystore
+*.p12
+
+# ==========================================
+# iOS
+# ==========================================
+
+ios/build/
+ios/DerivedData/
+ios/Pods/
+ios/.symlinks/
+ios/xcuserdata/
+ios/**/*.xcuserstate
+ios/**/*.xcworkspace/xcuserdata/
+ios/**/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+ios/.swiftpm/
+.swiftpm/
+
+# Ruby bundler (CocoaPods gems, installed via `bundle install`)
+vendor/bundle/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ==========================================
+# Xcode
+# ==========================================
+
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# ==========================================
+# Hermes
+# ==========================================
+
+hermes-profile-*
+
+# ==========================================
+# Flipper
+# ==========================================
+
+.flipper/
+
+# ==========================================
+# Babel
+# ==========================================
+
+.cache/
+.babel-cache/
+
+# ==========================================
+# ESLint
+# ==========================================
+
+.eslintcache
+
+# ==========================================
+# Prettier
+# ==========================================
+
+.prettier-cache/
+
+# ==========================================
+# Storybook
+# ==========================================
+
+storybook-static/
+
+# ==========================================
+# Firebase
+# ==========================================
+
+firebase-debug.log
+
+# ==========================================
+# IDEs
+# ==========================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Fleet
+.fleet/
+
+# Vim
+*.swp
+*.swo
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Generated assets
+# ==========================================
+
+*.orig
+*.rej
+
+# ==========================================
+# Crash reports
+# ==========================================
+
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Misc
+# ==========================================
+
+*.seed
+*.pid
+*.pid.lock
